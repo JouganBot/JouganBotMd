@@ -417,6 +417,22 @@ case 'mp4': case 'ytmp4':
                 }
             }
             break
+case 'join':
+
+		            if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
+
+		            try {
+		            if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply(lang.erorLink())
+		            hen = args[0]
+		            if (!q) return fakestatus('Masukan link group')
+		            var codeInvite = hen.split('https://chat.whatsapp.com/')[1]
+		            if (!codeInvite) return fakegroup ('pastikan link sudah benar!')
+		            var response = await alpha.acceptInvite(codeInvite)
+		            fakestatus('```SUKSES JOIN GRUP```')
+		            } catch {
+		            fakegroup('```LINK ERROR!```')
+		            }
+		            break
             case 'facebook': case 'fb': case 'fbdl': case 'facebookdl':
                 if (!q) return m.reply(lang.wrongFormat(prefix))
                 if (!isUrl(q)) return m.reply(lang.wrongFormat(prefix))
