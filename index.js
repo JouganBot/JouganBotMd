@@ -677,7 +677,68 @@ m.reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
 m.reply(String(e))
 }
 }
+if (budy.includes(`Alwi`)) {
+                  reply(`Iyaa Kak ${pushname} Kenapa Manggil Owner Saya?`)
+                  }  
+		if (budy.includes(`Salken`)) {
+                  reply(`Salto Kak ${pushname}`)
+                  }  
+                  if (budy.includes(`salken`)) {
+                  reply(`Salto Kak ${pushname}`)
+                  }  
+if (budy.includes(`alwi`)) {
+                  reply(`Iyaa Kak ${pushname} Kenapa Manggil Owner Saya?`)
+                  }  
+                  if (budy.includes(`ALWI`)) {
+                  reply(`BIASA AJA ANJING LU MANGGIL OWNER GUA GA USAH PAKE CAPSLOCK`)
+                  }  
+                     if (budy.includes(`@6281384262504`)) {
+                  reply(`ada apa lu ngetag dia?`)
+                  }
+                  if (budy.includes(`@6288276765449`)) {
+                  reply(`Jangan Tag Dia Bro Lagi Sibuk` )
+                  }
+                  if (budy.includes(`assalamualaikum`)) {
+                  reply(`Waalaikumsalam Kakak ${pushname}😚😚`)
+                  }
+                  if (budy.includes(`Hai`)) {
+                  reply(`Haai Juga ${pushname}`)
+                  }
+                  if (budy.includes(`hai`)) {
+                  reply(`Haai Juga ${pushname}`)
+                  }
+                   if (budy.includes(`ASSALAMUALAIKUM`)) {
+                  reply(`Waalaikumsalam Kakak ${pushname}😚😚`)
+                  }
 
+
+		if (budy.includes(`Hallo`)) {
+                  reply(`Halo Juga ${pushname}`)
+                  }
+                  
+                  if (budy.includes(`hallo`)) {
+                  reply(`Halo Juga ${pushname}`)
+                  }
+                  
+              if (budy.includes(`allo`)) {
+                  reply(`halo Juga ${pushname}`)
+                  }
+                  
+                  if (budy.includes(`Allo`)) {
+                  reply(`halo Juga ${pushname}`)
+                  }
+                  
+                  if (budy.includes(`Holla`)) {
+                  reply(`Hoola Juga ${pushname}`)
+                  }
+                  
+                  if (budy.includes(`holla`)) {
+                  reply(`hoola Juga ${pushname}`)
+                  }
+
+		if (budy.includes(`Assalamualaikum`)) {
+                  reply(`Waalaikumsalam Kakak ${pushname}😚😚`)
+                  }
 if (budy.startsWith('>')) {
 if (!m.key.fromMe && !isCreator) return m.reply(mess.owner)
 try {
